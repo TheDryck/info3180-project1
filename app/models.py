@@ -9,7 +9,7 @@ class Users(db.Model):
     img = db.Column(db.String(80))
     gender = db.Column(db.String(80))
     email = db.Column(db.String(80))
-    bio = db.Column(db.String(80))
+    bio = db.Column(db.String(300))
 
     def __init__(self,created_on,name,location,img,gender,email,bio):
         self.created_on = created_on
