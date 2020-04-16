@@ -20,3 +20,5 @@ WTForms==2.2.1
 flask
 Flask-SQLAlchemy
 psycopg2
+
+
