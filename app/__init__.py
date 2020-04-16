@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-SQLALCHEMY_DATABASE_URI ='postgres://kxjwalihfmxypq:2e6a6f6500e434ba75c8a672f72d47d67113e47bbe508fc5302b48f70b5b2980@ec2-75-101-133-29.compute-1.amazonaws.com:5432/dbl55tm7qr4blt'
+SQLALCHEMY_DATABASE_URI ='postgres://wwqzkthoioobwg:74780fba2df748e06bc34716544df6364d9c2ef1a7601bbf671d9bfa244b6e2c@ec2-34-193-232-231.compute-1.amazonaws.com:5432/dc40f7bs7m34l8'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 UPLOAD_FOLDER = "./app/static/uploads"
 SECRET_KEY = '1234567890'
