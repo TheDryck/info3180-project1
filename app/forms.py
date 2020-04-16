@@ -12,3 +12,8 @@ class ProfileForm(FlaskForm):
     location = StringField("location",validators=[DataRequired()])
     biography = TextAreaField("Biography",validators=[DataRequired()])
     profPic = FileField("Profile Picture",validators=[FileRequired(),FileAllowed(['jpg', 'png', 'Images only!'])])
+
+
+
+
+

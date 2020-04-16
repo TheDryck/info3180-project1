@@ -23,9 +23,7 @@ def profile():
         photo.save(os.path.join(
             app.config['UPLOAD_FOLDER'], filename
         ))
-        #print(os.path.join(
-          #  app.config['UPLOAD_FOLDER'], filename
-        #))
+        
         created_on = getDate()
         user = Users(created_on,name,location,filename,gender,email,bio)
         
